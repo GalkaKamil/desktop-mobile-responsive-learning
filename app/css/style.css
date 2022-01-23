@@ -1,3 +1,69 @@
 body{
-    background-color: blue;
+    background-color: hsl(257,40%,49%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.backgroundImage{
+    position: absolute;
+    height: 101vh;
+    top: -10px;
+    z-index: -1;
+}
+
+.logoImage{
+    margin: 35px 0 105px 35px;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: white;
+    margin-left: 85px;
+}
+
+.mainSection__image{
+    height: 37rem;
+}
+
+.mainSection__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 15px 0 0 80px;
+    
+}
+
+.mainSection__h1{
+    font-size: 3rem;
+    width: 40rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.mainSection__paragraph{
+    width: 41rem;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.mainSection__button{
+    height: 60px;
+    width: 250px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px rgb(22, 21, 21);
+    border: none;
+    color: rgb(160, 144, 197);
+}
+
+.mainSection__button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.mainSection__button:active{
+    background-color: hsl(300, 47%, 73%);
 }
