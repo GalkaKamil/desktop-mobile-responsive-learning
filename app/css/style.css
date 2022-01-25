@@ -67,3 +67,20 @@ body{
 .mainSection__button:active{
     background-color: hsl(300, 47%, 73%);
 }
+
+footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 88vw;
+    
+}
+
+.footer__Icon{
+    margin-right: 30px;
+    width: 48px;
+    filter: invert(94%) sepia(0%) saturate(24%) hue-rotate(24deg) brightness(105%) contrast(108%); /* fitler is to color svg icon */
+}
+
+
