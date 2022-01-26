@@ -2,13 +2,15 @@ body{
     background-color: hsl(257,40%,49%);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+   
+    
     
 }
 
 .backgroundImage{
     position: absolute;
-    height: 101vh;
-    top: -10px;
+    height: 950px;
+    top: -5px;
     z-index: -1;
 }
 
@@ -22,7 +24,16 @@ body{
     justify-content: start;
     color: white;
     margin-left: 85px;
+    
 }
+
+@media only screen and (max-width: 1330px){
+    .mainSection{
+        flex-wrap: wrap;
+    }
+}
+
+
 
 .mainSection__image{
     height: 37rem;
@@ -38,16 +49,18 @@ body{
 
 .mainSection__h1{
     font-size: 3rem;
-    width: 40rem;
+    max-width: 40rem;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
 .mainSection__paragraph{
-    width: 41rem;
+    max-width: 41rem;
     font-size: 1.3em;
     font-weight: 400;
 }
+
+
 
 .mainSection__button{
     height: 60px;
@@ -74,7 +87,8 @@ footer{
     flex-direction: row;
     justify-content: end;
     width: 88vw;
-    
+    height: 100px;
+    margin: 30px 0 0 0;
 }
 
 .footer__Icon{
