@@ -23,6 +23,7 @@ body{
 
 .mainSection__image{
     width: 100%;
+    height: auto;
     
 }
 
@@ -91,4 +92,47 @@ footer{
 .footer__Icon__middle{
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .backgroundImage{
+        width: 900px;
+        
+    }
+    .mainSection{
+        display: flex;
+        justify-content: start;
+    }
+
+    .mainSection__image{
+        height: 600px;
+        width: auto;
+    }
+
+    .mainSection__article{
+        align-items: start;
+        margin-left: 60px;
+    }
+
+    .mainSection__h1{
+        margin-left: 0px;
+        text-align: start;
+        max-width: 500px;
+    }
+
+    .mainSection__paragraph{
+        margin-left: 0px;
+        text-align: start;
+        max-width: 850px;
+    }
+
+    .mainSection__button{
+        width:340px;
+    }
+
+    footer{
+        width: 95%;
+        justify-content: end;
+    }
 }
