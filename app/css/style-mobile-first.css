@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(257,40%,49%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+}
+
+.backgroundImage{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.logoImage{
+    margin: 45px 0 0 55px;
+    
+}
+.mainSection{
+    
+    padding: 80px 50px 0 50px;
+    color: white;
+}
+
+.mainSection__image{
+    width: 100%;
+    
+}
+
+.mainSection__article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+
+.mainSection__h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 120px 5px 0 5px;
+}
+
+.mainSection__paragraph{
+    font-size: 1.7em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mainSection__button{
+    height: 80px;
+    width: 400px;
+    font-weight: 400;
+    font-size: 150%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px rgb(22, 21, 21);
+    border: none;
+    color: #6C5BA2;
+    margin-top: 30px;
+}
+
+.mainSection__button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.mainSection__button:active{
+    background-color: hsl(300, 47%, 73%);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    margin-top: 80px;
+    
+}
+
+.footer__Icon{
+    width: 48px;
+    filter: invert(94%) sepia(0%) saturate(24%) hue-rotate(24deg) brightness(105%) contrast(108%); /* fitler is to color svg icon */
+}
+
+.footer__Icon:hover{
+    filter: invert(90%) sepia(86%) saturate(1610%) hue-rotate(223deg) brightness(90%) contrast(89%);
+}
+
+.footer__Icon__middle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
